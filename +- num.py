@@ -9,7 +9,5 @@ for i in range(0,n):
 print("your list:",my_list)
 
 for i in my_list:
-    if (i<=0):
-        my_list.remove(i)
-i+=1
-print("positive interger list:",my_list)
+    if (i>=0):
+        print("postive interger list:",i)
